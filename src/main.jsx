@@ -5,6 +5,7 @@ import '@designcodeio/threeui/style.css';
 import './style.css';
 import AssistanceGallery from './AssistanceGallery';
 import MajorEmblem from './MajorEmblem';
+import githubProjects from './data/github-projects.json';
 
 export function Scene() {
   return <div className="shader-frame"><StructureFlowCollection variant="ember-storm" hue={0} saturation={1.00} brightness={1.00}/></div>;
@@ -64,6 +65,7 @@ function App() {
       </section>
       <AssistanceGallery/>
       <section className="github-section" aria-labelledby="github-title"><div><div className="eyebrow"><span/>POR TRÁS DOS PROJETOS</div><h2 id="github-title">Ideias em código.</h2><p>Explore meus repositórios públicos e acompanhe meu trabalho no GitHub.</p></div><a className="explore" href="https://github.com/431369" target="_blank" rel="noopener noreferrer">Conheça meu GitHub <span>↗</span></a></section>
+      <div className="github-grid" aria-label="Projetos no GitHub">{githubProjects.map((project,index)=><a className="github-project" key={project.slug} href={project.url} target="_blank" rel="noopener noreferrer" aria-label={`${project.name} — abrir no GitHub`}><div className="github-project-top"><span>{String(index+1).padStart(2,'0')} / PROJETO</span><span aria-hidden="true">↗</span></div><h3>{project.name}</h3><p>{project.description}</p><span className="github-stack">{project.stack}</span><span className="github-project-cta">{project.publicSource?'Explorar código no GitHub':'Conhecer projeto no GitHub'} <span aria-hidden="true">↗</span></span></a>)}</div>
       <footer><span>MAJORNEXO © {new Date().getFullYear()}</span><span>WEB + ASSISTÊNCIA TÉCNICA</span></footer>
     </div>
   </div>;

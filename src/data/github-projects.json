@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "majornexo",
+    "name": "MAJORNEXO",
+    "description": "Meu portfólio de desenvolvimento web, tecnologia e trabalhos realizados.",
+    "stack": "React · Three.js · Vite",
+    "url": "https://github.com/431369/majornexo",
+    "publicSource": true
+  },
+  {
+    "slug": "nexo-leads",
+    "name": "NEXO Leads",
+    "description": "Aplicação de prospecção e organização de oportunidades.",
+    "stack": "TypeScript · React · backend",
+    "url": "https://github.com/431369/majornexo/tree/main/projetos/nexo-leads",
+    "publicSource": false
+  },
+  {
+    "slug": "dacruz-doces",
+    "name": "DaCruz Doces",
+    "description": "Projeto de presença digital e catálogo de confeitaria.",
+    "stack": "TypeScript · web",
+    "url": "https://github.com/431369/majornexo/tree/main/projetos/dacruz-doces",
+    "publicSource": false
+  },
+  {
+    "slug": "nexo-crm",
+    "name": "NEXO CRM",
+    "description": "Organização de contatos, atendimento e operação comercial.",
+    "stack": "Python · web",
+    "url": "https://github.com/431369/majornexo/tree/main/projetos/nexo-crm",
+    "publicSource": false
+  },
+  {
+    "slug": "uai-clima",
+    "name": "UAI Clima",
+    "description": "Site comercial com catálogo e ferramentas administrativas.",
+    "stack": "JavaScript · Node.js",
+    "url": "https://github.com/431369/majornexo/tree/main/projetos/uai-clima",
+    "publicSource": false
+  },
+  {
+    "slug": "nexo-human",
+    "name": "NEXO HUMAN",
+    "description": "Interface de conversação e voz conectada ao ecossistema empresarial.",
+    "stack": "Python · IA · voz",
+    "url": "https://github.com/431369/majornexo/tree/main/projetos/nexo-human",
+    "publicSource": false
+  },
+  {
+    "slug": "nexo-portal-cliente",
+    "name": "NEXO Portal Cliente",
+    "description": "Portal para experiência e serviços de clientes.",
+    "stack": "Python · web",
+    "url": "https://github.com/431369/majornexo/tree/main/projetos/nexo-portal-cliente",
+    "publicSource": false
+  },
+  {
+    "slug": "majorai",
+    "name": "MAJORAI",
+    "description": "Ferramentas de automação e produção de conteúdo.",
+    "stack": "Python · mídia",
+    "url": "https://github.com/431369/majornexo/tree/main/projetos/majorai",
+    "publicSource": false
+  },
+  {
+    "slug": "lifa-nexo",
+    "name": "LIFA / NEXO",
+    "description": "Projeto de coordenação de agentes e ferramentas empresariais.",
+    "stack": "Node.js · IA · web",
+    "url": "https://github.com/431369/majornexo/tree/main/projetos/lifa-nexo",
+    "publicSource": false
+  }
+]

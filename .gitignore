@@ -10,9 +10,10 @@ dist/
 *.sqlite*
 *.db
 *.log
-data/
+/data/
 uploads/
 backups/
 .sessions/
 .openai/
 __pycache__/
+
