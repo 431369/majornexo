@@ -32,7 +32,7 @@ function paint(){
 }
 function formatTime(t){return [Math.floor(t/3600),Math.floor(t/60)%60,Math.floor(t%60)].map(v=>String(v).padStart(2,'0')).join(':');}
 async function load(){state=await api();paint();}
-function select(id){projectId=id;sourceId='';extra=[];document.body.classList.remove('sidebar-open');$('menu').setAttribute('aria-expanded','false');paint();}
+function select(id){projectId=id;sourceId='';extra=[];selectedFile=null;$('attachment').hidden=true;if(previewUrl){URL.revokeObjectURL(previewUrl);previewUrl=null;}document.body.classList.remove('sidebar-open');$('menu').setAttribute('aria-expanded','false');paint();}
 async function ensureProject(){if(!projectId){const p=await api('/create',{title:selectedFile?.name.replace(/\.[^.]+$/,'').slice(0,120)||$('message').value.trim().slice(0,100)||'Nova conversa'});projectId=p.id;await load();}return projectId;}
 async function action(fn){if(busy)return;busy=true;$('send').disabled=true;try{await fn();}catch(e){extra=extra.filter(m=>!m.text.endsWith('…'));extra.push({role:'assistant',text:e.message});if(state)paint();notice(e.message);}finally{busy=false;$('send').disabled=false;}}
 const uploader=new ResumableVideoUpload({api,onProgress:p=>{projectId=p.projectId;$('upload-progress').value=100*p.received/p.total;const speed=p.speed?`${(p.speed/1024**2).toFixed(1)} MB/s`:'calculando velocidade';const eta=p.remainingSeconds===null?'':` · ~${Math.ceil(p.remainingSeconds/60)} min restantes`;$('upload-status').textContent=p.phase==='validating'?'Transferência concluída. Conferindo o arquivo…':`${Math.floor(100*p.received/p.total)}% · ${speed}${eta}`;}});
