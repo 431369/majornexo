@@ -1,0 +1,266 @@
+{
+  "crm": {
+    "chapters": [
+      {
+        "title": "Visão geral",
+        "description": "Resultados do dia, tarefas e visão do funil.",
+        "start": 0,
+        "image": "/projects/crm/screens/inicio.jpg"
+      },
+      {
+        "title": "Empresas",
+        "description": "Cadastros separados para cada operação.",
+        "start": 4,
+        "image": "/projects/crm/screens/empresas.jpg"
+      },
+      {
+        "title": "Clientes",
+        "description": "Contatos, oportunidades, importação e exportação CSV.",
+        "start": 8,
+        "image": "/projects/crm/screens/clientes.jpg"
+      },
+      {
+        "title": "Ficha do cliente",
+        "description": "Histórico de atendimento, retornos e documentos.",
+        "start": 12,
+        "image": "/projects/crm/screens/ficha.jpg"
+      },
+      {
+        "title": "Acompanhar vendas",
+        "description": "Etapas da negociação, previsão e motivos de perda.",
+        "start": 16,
+        "image": "/projects/crm/screens/vendas.jpg"
+      },
+      {
+        "title": "Tarefas",
+        "description": "Prazos, responsáveis e próximos contatos.",
+        "start": 20,
+        "image": "/projects/crm/screens/tarefas.jpg"
+      },
+      {
+        "title": "Relatórios",
+        "description": "Filtros por período, filial, pessoa e etapa.",
+        "start": 24,
+        "image": "/projects/crm/screens/relatorios.jpg"
+      },
+      {
+        "title": "Filiais",
+        "description": "Organização das unidades e de seus clientes.",
+        "start": 28,
+        "image": "/projects/crm/screens/filiais.jpg"
+      },
+      {
+        "title": "Equipe e acessos",
+        "description": "Perfis de acesso por empresa e por filial.",
+        "start": 32,
+        "image": "/projects/crm/screens/equipe.jpg"
+      },
+      {
+        "title": "Armazenamento",
+        "description": "Uso e limites dos arquivos da empresa.",
+        "start": 36,
+        "image": "/projects/crm/screens/armazenamento.jpg"
+      },
+      {
+        "title": "Planos e cobranças",
+        "description": "Assinaturas e pagamentos com registro manual.",
+        "start": 40,
+        "image": "/projects/crm/screens/planos.jpg"
+      },
+      {
+        "title": "Atendimento receptivo",
+        "description": "Diretrizes de recepção, qualificação e encaminhamento.",
+        "start": 44,
+        "image": "/projects/crm/screens/atendimento.jpg"
+      },
+      {
+        "title": "Integrações",
+        "description": "Atalhos de contato e exportação de calendário.",
+        "start": 48,
+        "image": "/projects/crm/screens/integracoes.jpg"
+      },
+      {
+        "title": "Meu perfil",
+        "description": "Dados de acesso e recuperação da própria conta.",
+        "start": 52,
+        "image": "/projects/crm/screens/perfil.jpg"
+      },
+      {
+        "title": "Segurança e backups",
+        "description": "Cópias de segurança e histórico administrativo.",
+        "start": 56,
+        "image": "/projects/crm/screens/seguranca.jpg"
+      }
+    ],
+    "duration": 60,
+    "screenCount": 15
+  },
+  "lifa": {
+    "chapters": [
+      {
+        "title": "Centro de comando",
+        "description": "Um objetivo, uma equipe de especialistas.",
+        "start": 0,
+        "image": "/projects/lifa/screens/comando.jpg"
+      },
+      {
+        "title": "Conversa",
+        "description": "Texto e interface de voz conectados à empresa.",
+        "start": 4,
+        "image": "/projects/lifa/screens/conversa.jpg"
+      },
+      {
+        "title": "Equipe de agentes",
+        "description": "Seis papéis complementares e especialistas personalizados.",
+        "start": 8,
+        "image": "/projects/lifa/screens/agentes.jpg"
+      },
+      {
+        "title": "Lifa · Coordenação",
+        "description": "Entende o pedido, distribui tarefas e reúne entregas.",
+        "start": 12,
+        "image": "/projects/lifa/screens/agente-lifa.jpg"
+      },
+      {
+        "title": "Maia · Operações",
+        "description": "Prioriza pendências e prepara planos para aprovação.",
+        "start": 16,
+        "image": "/projects/lifa/screens/maia.jpg"
+      },
+      {
+        "title": "Atlas · Engenharia",
+        "description": "Propõe código, interfaces, integrações e critérios de teste.",
+        "start": 20,
+        "image": "/projects/lifa/screens/agente-atlas.jpg"
+      },
+      {
+        "title": "Íris · Conteúdo",
+        "description": "Planeja textos, roteiros e direção audiovisual.",
+        "start": 24,
+        "image": "/projects/lifa/screens/agente-iris.jpg"
+      },
+      {
+        "title": "Elo · Relacionamento",
+        "description": "Qualifica oportunidades e prepara o próximo contato.",
+        "start": 28,
+        "image": "/projects/lifa/screens/agente-elo.jpg"
+      },
+      {
+        "title": "Prisma · Revisão",
+        "description": "Confere requisitos, fontes e lacunas das entregas.",
+        "start": 32,
+        "image": "/projects/lifa/screens/agente-prisma.jpg"
+      },
+      {
+        "title": "Biblioteca de métodos",
+        "description": "31 métodos de referência para orientar os trabalhos.",
+        "start": 36,
+        "image": "/projects/lifa/screens/metodos.jpg"
+      },
+      {
+        "title": "Memória da empresa",
+        "description": "Público, ofertas, linguagem, metas e decisões.",
+        "start": 40,
+        "image": "/projects/lifa/screens/memoria.jpg"
+      },
+      {
+        "title": "Histórico",
+        "description": "Rastreabilidade dos eventos da operação.",
+        "start": 44,
+        "image": "/projects/lifa/screens/historico.jpg"
+      },
+      {
+        "title": "Ajustes",
+        "description": "Configuração de IA e acesso aos módulos da empresa.",
+        "start": 48,
+        "image": "/projects/lifa/screens/ajustes.jpg"
+      },
+      {
+        "title": "Planos da Maia",
+        "description": "Consulta, proposta, revisão e confirmação no CRM.",
+        "start": 52,
+        "image": "/projects/lifa/screens/operacoes-maia.jpg"
+      },
+      {
+        "title": "Criação e engenharia",
+        "description": "Briefings, formatos, versões e critérios de entrega.",
+        "start": 56,
+        "image": "/projects/lifa/screens/especialistas.jpg"
+      },
+      {
+        "title": "Ciclo comercial",
+        "description": "Propostas, páginas de captura e acompanhamento de leads.",
+        "start": 60,
+        "image": "/projects/lifa/screens/comercial.jpg"
+      },
+      {
+        "title": "Estúdio Íris",
+        "description": "Ideia, roteiro, materiais, montagem e revisão.",
+        "start": 64,
+        "image": "/projects/lifa/screens/estudio.jpg"
+      },
+      {
+        "title": "Canais e marcas",
+        "description": "Identidade editorial e referências autorizadas.",
+        "start": 68,
+        "image": "/projects/lifa/screens/estudio-canais.jpg"
+      },
+      {
+        "title": "Meus vídeos",
+        "description": "Biblioteca de materiais e histórico das produções.",
+        "start": 72,
+        "image": "/projects/lifa/screens/estudio-videos.jpg"
+      },
+      {
+        "title": "Importação de vídeos",
+        "description": "Arquivos autorizados entram como revisão pendente.",
+        "start": 76,
+        "image": "/projects/lifa/screens/estudio-importar.jpg"
+      },
+      {
+        "title": "Recursos de criação",
+        "description": "Cada recurso mostra se está configurado neste motor.",
+        "start": 80,
+        "image": "/projects/lifa/screens/estudio-config.jpg"
+      },
+      {
+        "title": "Edição pré-programada",
+        "description": "Comandos, cortes exatos e presets editáveis.",
+        "start": 84,
+        "image": "/projects/lifa/screens/edicao.jpg"
+      },
+      {
+        "title": "Revisão de vídeos",
+        "description": "Vídeos, Shorts e capas; aprovação por versão.",
+        "start": 88,
+        "image": "/projects/lifa/screens/revisao-video.jpg"
+      },
+      {
+        "title": "Revisões Prisma",
+        "description": "Requisitos, evidências e ciclos de correção.",
+        "start": 92,
+        "image": "/projects/lifa/screens/revisoes.jpg"
+      },
+      {
+        "title": "Atendimento Elo",
+        "description": "Preparação do canal e encaminhamento humano.",
+        "start": 96,
+        "image": "/projects/lifa/screens/whatsapp.jpg"
+      },
+      {
+        "title": "Controles da empresa",
+        "description": "Limites, pausas e permissões operacionais.",
+        "start": 100,
+        "image": "/projects/lifa/screens/operacao.jpg"
+      },
+      {
+        "title": "Diagnóstico",
+        "description": "Estado das conexões e validações ainda pendentes.",
+        "start": 104,
+        "image": "/projects/lifa/screens/diagnostico.jpg"
+      }
+    ],
+    "duration": 108,
+    "screenCount": 27
+  }
+}

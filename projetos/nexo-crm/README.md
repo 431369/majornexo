@@ -1,15 +1,7 @@
-# NEXO CRM
+# LIFA CRM
 
-Organização de contatos, atendimento e operação comercial.
+[Abrir o sistema](https://crm.nexos.log.br/)
 
-## Tecnologias
+A pasta `interface/` contém a interface entregue ao navegador. Depende dos serviços autenticados do sistema para funcionar. Backend, regras internas, métodos dos agentes, configurações, bancos e dados empresariais ficam no repositório privado do proprietário.
 
-Python · web
-
-## Apresentação pública
-
-Este diretório apresenta o projeto no portfólio de Ryan Nayron. O código do produto permanece em repositório privado. Nenhuma credencial ou informação de clientes está disponível aqui.
-
-[Visite MAJORNEXO](https://majornexo.nexos.log.br/) · [Instagram](https://www.instagram.com/majornexo/)
-
-A existência desta apresentação não comprova disponibilidade pública de todos os recursos nem concede direitos de uso sobre código e materiais de clientes.
+A visibilidade dos arquivos não concede licença sobre marcas ou dependências de terceiros. Nenhuma credencial ou histórico operacional integra esta apresentação.

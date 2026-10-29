@@ -1,0 +1,4 @@
+class Capture extends AudioWorkletProcessor {
+ constructor(){super();this.samples=[];this.position=0;}
+ process(inputs){const input=inputs[0]?.[0];if(!input)return true;this.samples.push(...input);const ratio=sampleRate/16000;let output=[];while(this.position+ratio<=this.samples.length){let sum=0,count=0;for(let j=Math.floor(this.position);j<Math.floor(this.position+ratio);j++){sum+=this.samples[j];count++;}output.push(Math.max(-32768,Math.min(32767,Math.round((sum/count)*32767))));this.position+=ratio;}const used=Math.floor(this.position);this.samples.splice(0,used);this.position-=used;this.pending??=[];this.pending.push(...output);while(this.pending.length>=640){const b=new ArrayBuffer(1280),v=new DataView(b);this.pending.splice(0,640).forEach((x,i)=>v.setInt16(i*2,x,true));this.port.postMessage(b,[b]);}return true;}
+}registerProcessor('nexo-capture',Capture);

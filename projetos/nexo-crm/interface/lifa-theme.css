@@ -1,0 +1,34 @@
+/* LIFA CRM — shared graphite/coral identity, without decorative canvas. */
+:root{--ink:#eeeae7;--muted:#b4aaa4;--accent:#ff4548;--dark:#df3438;--line:#45403d;--bg:#222221;--white:#2a2827}
+body{background:var(--bg);color:var(--ink);font-family:Inter,'Segoe UI',Arial,sans-serif;-webkit-font-smoothing:antialiased}
+button,.button-link{min-height:44px;border:1px solid transparent;border-radius:10px;color:#211a1a;box-shadow:none}
+button:hover,.button-link:hover{box-shadow:0 6px 20px #ff454818;transform:translateY(-1px)}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible{outline:2px solid #ff777a;outline-offset:3px}
+h1,h2,h3{letter-spacing:-.04em}aside{background:#262423;border-color:var(--line)}aside h1{color:var(--accent);font-weight:800}
+nav button{color:var(--muted)}nav button:hover{background:#ff454808;color:#ff8c8f}nav button.active{background:#ff454812;color:#ff8588;border-color:#ff454835}
+.secondary,#logout,.button-link.secondary{background:#353130;color:var(--ink);border-color:var(--line)}.secondary:hover,#logout:hover{background:#413634}
+.welcome{background:linear-gradient(135deg,#322b29,#262424);border-color:#66514c}.card,.panel,.login,dialog{background:var(--white);border-color:var(--line);box-shadow:none}
+.quick-action{background:#2b2827;color:var(--ink)}.quick-action:hover{background:#342b29;color:var(--ink);border-color:#ff454860}
+.step,.tag,.count{background:#ff454815;color:#ff9395}.column{background:#242323}.deal{background:#2e2a28}
+input,select,textarea{background:#201f1e;color:var(--ink);border-color:#66514b;color-scheme:dark}input:focus,select:focus,textarea:focus{border-color:#ff7477}
+th{background:#242221}tbody tr:hover{background:#ff454805}.row{border-color:var(--line)}.intro{background:#292624;color:var(--muted)}
+.text-link,.text-button,.quick-action .action-link{color:#ff8c8f!important}.text-link:hover,.text-button:hover{color:#ffb1b3!important}
+dialog::backdrop{background:#101010b3;backdrop-filter:blur(4px)}#notice{background:#322a28;color:var(--ink);border-left:3px solid var(--accent)}
+.overdue,[role=alert]{color:#ff989a}.login{width:calc(100% - 32px);max-width:520px;margin:clamp(24px,8vh,90px) auto;padding:clamp(24px,4vw,44px);border-radius:24px;background:linear-gradient(135deg,#302b29,#252424)}
+.login h1{font-size:36px;font-weight:800}.login h2{font-size:clamp(26px,4vw,34px)}
+main,.shell,.heading,.top,.toolbar,.cards,.grid{min-width:0}.heading h2{overflow-wrap:anywhere}.top span{overflow-wrap:anywhere}.panel{max-width:100%}.table-panel{overflow:auto}
+aside nav button{gap:12px}.top select{max-width:100%}.aside-footer{color:var(--muted)}
+@media(max-width:850px){main{padding:24px 18px}.top label{flex-wrap:wrap}.top select{width:100%}aside nav{grid-template-columns:repeat(auto-fit,minmax(min(100%,160px),1fr))}.heading,.toolbar{gap:16px}.login{margin:24px auto}}
+@media(max-width:480px){main{padding:20px 14px}.cards,.quick-actions,.sales-board,.filter-form{grid-template-columns:minmax(0,1fr)}.card,.panel{padding:20px}.actions{flex-wrap:wrap}.actions button{min-width:0}nav button{font-size:14px}.top{gap:12px}}
+@media(prefers-reduced-motion:reduce){button:hover,.button-link:hover{transform:none}}
+@media print{body{color:#111;background:#fff}.panel,.card{background:#fff;color:#111}p,th,.muted{color:#333}}
+
+/* Keep every sales stage side by side at all viewport sizes. */
+.sales-board{display:flex;gap:16px;width:100%;max-width:100%;min-width:0;height:auto;max-height:clamp(260px,calc(100dvh - 340px),640px);overflow-x:auto;overflow-y:auto;align-items:flex-start;padding:4px 4px 8px;scrollbar-width:auto;scrollbar-color:var(--accent) #302b2a;overscroll-behavior-x:contain;scroll-snap-type:x proximity}
+.sales-board .column{flex:0 0 clamp(240px,28vw,300px);min-width:0;scroll-snap-align:start;overflow-wrap:anywhere}
+.sales-board::-webkit-scrollbar{height:14px}
+.sales-board::-webkit-scrollbar-track{background:#302b2a;border-radius:8px}
+.sales-board::-webkit-scrollbar-thumb{background:var(--accent);border:3px solid #302b2a;border-radius:8px}
+.sales-board:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+@media(max-width:480px){.sales-board .column{flex-basis:min(280px,85vw)}}
+@media print{.sales-board{display:grid;max-height:none;grid-auto-flow:row;grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible}}

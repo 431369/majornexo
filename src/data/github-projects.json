@@ -1,5 +1,21 @@
 [
   {
+    "slug": "nexo-crm",
+    "name": "LIFA CRM",
+    "description": "Gestão comercial com clientes, vendas, tarefas e acesso por empresa.",
+    "stack": "Python · web",
+    "url": "https://github.com/431369/majornexo/tree/main/projetos/nexo-crm",
+    "publicSource": false
+  },
+  {
+    "slug": "lifa-nexo",
+    "name": "LIFA — Centro de Comando",
+    "description": "Coordenação de agentes, contexto empresarial e Estúdio Íris.",
+    "stack": "Node.js · IA · web",
+    "url": "https://github.com/431369/majornexo/tree/main/projetos/lifa-nexo",
+    "publicSource": false
+  },
+  {
     "slug": "majornexo",
     "name": "MAJORNEXO",
     "description": "Meu portfólio de desenvolvimento web, tecnologia e trabalhos realizados.",
@@ -21,14 +37,6 @@
     "description": "Projeto de presença digital e catálogo de confeitaria.",
     "stack": "TypeScript · web",
     "url": "https://github.com/431369/majornexo/tree/main/projetos/dacruz-doces",
-    "publicSource": false
-  },
-  {
-    "slug": "nexo-crm",
-    "name": "NEXO CRM",
-    "description": "Organização de contatos, atendimento e operação comercial.",
-    "stack": "Python · web",
-    "url": "https://github.com/431369/majornexo/tree/main/projetos/nexo-crm",
     "publicSource": false
   },
   {
@@ -61,14 +69,6 @@
     "description": "Ferramentas de automação e produção de conteúdo.",
     "stack": "Python · mídia",
     "url": "https://github.com/431369/majornexo/tree/main/projetos/majorai",
-    "publicSource": false
-  },
-  {
-    "slug": "lifa-nexo",
-    "name": "LIFA / NEXO",
-    "description": "Projeto de coordenação de agentes e ferramentas empresariais.",
-    "stack": "Node.js · IA · web",
-    "url": "https://github.com/431369/majornexo/tree/main/projetos/lifa-nexo",
     "publicSource": false
   }
 ]

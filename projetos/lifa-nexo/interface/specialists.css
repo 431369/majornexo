@@ -1,0 +1,9 @@
+.specialists-page main{max-width:1200px;margin:auto;padding:clamp(16px,3vw,40px)}
+.specialists-page .workspace{display:grid;grid-template-columns:minmax(220px,1fr) minmax(0,2fr);gap:24px;align-items:start}
+.specialists-page section,.specialists-page details{min-width:0;margin:16px 0;padding:20px;border:1px solid #554a45;border-radius:18px;background:#292625}
+.specialists-page label{display:block;margin:12px 0}.specialists-page input,.specialists-page select,.specialists-page textarea{box-sizing:border-box;width:100%;min-height:44px;font:inherit;color:#eee;background:#211f1e;border:1px solid #65534d;border-radius:10px;padding:10px}
+.specialists-page textarea{min-height:88px;resize:vertical}.specialists-page button{min-height:44px;max-width:100%;margin:6px;white-space:normal;overflow-wrap:anywhere}
+.specialists-page .actions{display:flex;flex-wrap:wrap}.specialists-page pre{white-space:pre-wrap;overflow-wrap:anywhere;max-height:600px;overflow:auto}.specialists-page #projects button{display:block;width:100%;margin:8px 0;text-align:left}
+.specialists-page .piece{border:1px solid #65534d;border-radius:12px;padding:12px;margin:12px 0}.specialists-page :focus-visible{outline:2px solid #ff454b;outline-offset:3px}
+@media(max-width:760px){.specialists-page .workspace{grid-template-columns:minmax(0,1fr)}.specialists-page section{padding:14px}.specialists-page .actions button{flex:1 1 180px}}
+@media(prefers-reduced-motion:reduce){.specialists-page *{scroll-behavior:auto;transition:none;animation:none}}
